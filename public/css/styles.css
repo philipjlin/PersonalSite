@@ -1,0 +1,235 @@
+/* COLORS */
+/*
+LOGO:
+color: #D7B221
+color: #004AAD
+*/
+
+
+/***** TAG SELECTORS *****/
+body {
+
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  background-color: #FFFFF4;
+}
+
+hr{
+
+  color: #004AAD;
+  margin: 0 5% 5%;
+}
+
+h2, h3 {
+
+  color: #0AA1DD;
+  margin-bottom: 5%;
+}
+
+p {
+
+  line-height: 2;
+}
+
+a:link, a:visited {
+
+  text-decoration: none;
+  color: #D7B221;
+}
+
+a:hover{
+
+  text-decoration: none;
+  color:grey;
+}
+
+a:hover img{
+
+  transform: scale(1.5);
+}
+
+
+
+
+
+/***** NAVIGATION MENU *****/
+#navigation{
+
+  background-color: #FFFFF4;
+}
+
+.navbar-brand{
+
+  height: 10%;
+  width: 10%;
+}
+
+.navbar-nav{
+
+  width: 50%;
+  margin: auto 10% auto;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+
+  list-style-type: none;
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+
+
+
+
+/***** HOME PAGE *****/
+#home-top-section {
+
+  background-color: #004AAD;
+}
+
+.bracket-top {
+
+  display: block;
+}
+
+.home-icon{
+
+  display: inline;
+  color: #D7B221;
+  margin: 5%;
+}
+
+.home-slogan{
+
+  color: white;
+  font-weight: bold;
+  font-size: 3.5rem;
+  margin: 7% auto 7% auto;
+}
+
+.bracket-bottom {
+
+  display: block;
+  transform: rotate(180deg);
+  margin-left: auto;
+  margin-right: 0;
+}
+
+#home-middle-section {
+
+  background-color: white;
+  margin: 0;
+  padding: 10% 20% 10%;
+}
+
+.profile-img{
+
+  width: 20%;
+  height: 20%;
+  border-radius: 100%;
+  margin: 10% auto;
+}
+
+.home-intro{
+
+  font-size: 1.5rem;
+}
+
+
+
+
+
+/***** ABOUT PAGE ******/
+#skills{
+
+  text-align: center;
+  margin: 0 20%;
+}
+
+.skill{
+
+  margin-bottom: 10%;
+}
+
+.skill-title, .hobbies-title{
+
+  color: #D7B221;
+}
+
+.skill-img {
+
+  width: 65%;
+  margin: 0 0 10% 0;
+  border-radius: 100%;
+}
+
+.skill-description{
+
+  text-align: left;
+}
+
+#hobbies{
+
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.hobbies-description {
+
+  font-size: 1.5rem;
+  width: 60%;
+  margin: 2% auto 0;
+}
+
+
+
+
+/***** PROJECTS SECTION *****/
+#snapshots{
+
+  background-color: #004AAD;
+  height: auto;
+  width: auto;
+}
+
+/***** BLOG SECTION *****/
+#banner{
+
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  width: 100%;
+}
+
+
+
+
+
+/***** FOOTER SECTION *****/
+#footer {
+
+  background-color: #004AAD;
+  padding: 2% 0 2%;
+  margin: 0;
+}
+
+.social-icon{
+
+  margin: 1%;
+  height: 3%;
+  width: 3%;
+}
+
+.footer-msg{
+
+  color: white;
+  font-family: 'Archivo Narrow';
+  font-size: 0.75rem;
+  margin-top: 2%;
+}
