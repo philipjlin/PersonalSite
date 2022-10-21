@@ -6,7 +6,10 @@ var path = require("path");
 
 const app = express();
 
+//Body parser for requests
 app.use(bodyParser.urlencoded({extended: true}));
+
+//Allows use of static files in public directory (css, images)
 app.use(express.static(path.join(__dirname, 'public')));
 
 
