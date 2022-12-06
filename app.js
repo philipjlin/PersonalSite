@@ -1,6 +1,9 @@
+/*
+ * Personal Site - Main server
+ */
+
 //Required packages
 const express = require("express"); //npm install express
-const https = require("node:https");
 const bodyParser = require("body-parser");
 var path = require("path");
 
@@ -13,7 +16,11 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static(path.join(__dirname, 'public')));
 
 
-//process.env.port listens for Heroku server
+
+
+
+/******************** SERVER ROUTES ********************/
+//process.env.port listens for live server
 //local port 3000 for testing
 app.listen(process.env.PORT || 3000, function(){
 
@@ -39,11 +46,4 @@ app.get("/about", function(req, res){
 app.get("/projects", function(req, res){
 
                       res.sendFile(path.join(__dirname, "views/projects.html"));
-});
-
-
-
-app.get("/blog", function(req, res){
-
-                  res.sendFile(path.join(__dirname, "views/blog.html"));
 });
