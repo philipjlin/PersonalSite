@@ -174,7 +174,7 @@ a:hover img{
 
 .skill-img {
 
-  width: 65%;
+  width: 70%;
   margin: 0 0 10% 0;
   border-radius: 100%;
 }
@@ -225,6 +225,11 @@ a:hover img{
   margin: 10% 20% 10%;
 }
 
+#projects h1{
+
+  padding-bottom: 75px;
+}
+
 #projects h3{
 
   margin: 2%;
@@ -232,7 +237,7 @@ a:hover img{
 
 .project-list {
 
-  margin: 0 auto 5%;
+  margin: 0 auto 10%;
   line-height: 1.75;
   list-style: none;
 }
