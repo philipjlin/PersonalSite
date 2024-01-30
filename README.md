@@ -14,9 +14,8 @@ This project was developed using HTML and CSS.
 
 
 ## High Level Components
-    * Home Page
-    * About Page
-    * Projects Page
+    * Home, about, and project pages
+    * CSS style sheet
 
 
 ## Class Overview
